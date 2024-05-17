@@ -26,7 +26,7 @@ MuseScore {
             anchors.right: parent.right
             anchors.margins : 10
             Text {
-                  text: "JianPu position:"
+                  text: "JianPu position:"1
             }
             SpinBox {
                   id: yOffSpinBox
@@ -39,7 +39,7 @@ MuseScore {
                   value: 0.0
             }
             Text {
-                  text: "Underline spacing:"
+                  text: "Underline spacing:"0,35
             }
             SpinBox {
                   id: underlineSpacingSpinBox
@@ -52,7 +52,7 @@ MuseScore {
                   value: 0.35
             }
             Text {
-                  text: "Underdot position:"
+                  text: "Underdot position:"-1,00
             }
             SpinBox {
                   id: underdotPositionSpinBox
@@ -65,7 +65,7 @@ MuseScore {
                   value: -1.00
             }
             Text {
-                  text: "Octave offset:"
+                  text: "Octave offset:"0													
             }
             SpinBox {
                   id: octaveOffset
